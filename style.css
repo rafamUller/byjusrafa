@@ -1,0 +1,122 @@
+body {
+     font-family: 'Roboto Mono', monospace;
+}
+
+header {
+     background-color: black;
+     color: white;
+     height: 150px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+
+header h1 {
+     font-size: 50px;
+     font-family: 'Roboto Mono', monospace;
+     font-weight: 700;
+     margin-bottom: 20px;
+}
+
+header a {
+     font-size: 25px;
+     font-family: 'Roboto Mono', monospace;
+     font-weight: 400;
+}
+
+
+.menu {
+     display: flex;
+     width: 400px;
+     justify-content: space-around;
+     align-items: center;
+     align-content: center;
+}
+
+.menu a {
+     padding-top: 20px;
+     width: 150px;
+     height: 40px;
+     background-color: blueviolet;
+     display: flex;
+     justify-content: center;
+     border-radius: 10%;
+     color: white;
+
+
+}
+
+.menu i {
+     margin-left: -6px
+}
+
+.sobre {
+     padding-top: 100px;
+     font-family: 'Roboto Mono', monospace;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+
+
+}
+
+.sobre h2 {
+     font-family: 'Roboto Mono', monospace;
+     font-size: 50px;
+     text-transform: capitalize;
+     color: blueviolet;
+     font-weight: bolder;
+
+}
+
+.sobre h3 {
+     font-size: 25px;
+     font-style: italic;
+     font-family: 'Roboto Mono', monospace;
+     font-weight: 400;
+}
+
+.sobre h4 {
+     font-size: 18px;
+     font-style: italic;
+     font-family: 'Roboto Mono', monospace;
+     font-weight: 400;
+}
+
+.sobre-img img {
+     width: 300px;
+     border-radius: 100%;
+     margin-top: 30px;
+
+
+}
+
+footer {
+     background: #ffffff;
+     background: -moz-linear-gradient(45deg, #ffffff 0%, #8a2be2 0%, #e08f2c 100%);
+     background: -webkit-linear-gradient(45deg, #ffffff 0%, #8a2be2 0%, #e08f2c 100%);
+     background: linear-gradient(45deg, #ffffff 0%, #8a2be2 0%, #e08f2c 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e08f2c', GradientType=1);
+
+     height: 100px
+
+}
+
+.skills-item img{
+     width: 100px;
+
+}
+
+.skills-item{
+     display:flex;
+     flex-direction: column;
+     margin: 10px;
+}
+
+.skills{
+     display: flex;
+     align-content: center;
+     justify-content: center;
+}
